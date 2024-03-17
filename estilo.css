@@ -2,10 +2,12 @@ body{
     margin: 0px;
     background-color: black;
     padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 #areaconteudo{
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
     color: white;
 }
 #txttitu{
@@ -54,8 +56,8 @@ body{
 }
 #tdi{
     position: relative;
-    width: 300px;
-    height:200px;
+    width: 370px;
+    height:270px;
     overflow: hidden;
 }
 
@@ -283,4 +285,14 @@ a{
     text-align: center;
     border: solid 1px white;
     padding: 10px;
+    
+    
+}
+
+#btnreturn{
+    background: transparent;
+}
+#btnreturn:hover{
+    background: white;
+    color: black;
 }
