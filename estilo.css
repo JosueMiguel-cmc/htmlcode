@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     background-color: black;
+    padding-bottom: 20px;
 }
 #areaconteudo{
     padding-left: 50px;
@@ -187,15 +188,15 @@ a{
     color: white;
 }
 
+
 .personagemimg{
-   margin: 0;
     color: white;
     display: flex; 
     background: black;
     background-position: center;
     background-size: cover;
-    width: 200px; /* Defina a largura desejada */
-    height: 300px; /* Defina a altura desejada */
+    width: 300px;
+    height: 400px;
 }
 
 
@@ -274,4 +275,12 @@ a{
     border-radius: 60%;
     height: 300px;
     width: 300px;
+}
+
+
+/*rodape*/
+#rodape{
+    text-align: center;
+    border: solid 1px white;
+    padding: 10px;
 }
