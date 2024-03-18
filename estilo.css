@@ -106,14 +106,20 @@ a{
 }
 
 #animes{
-    display: flex;
+    display: block;
+    flex-wrap: wrap;
 }
 #conteudoanime{
     background: black;
     opacity: 90%;
     padding: 20px;
+    display: inline-block;
+    justify-content: center;
 }
 
+.animebox{
+    text-align: center;
+}
 
 #Frieren{
     box-sizing: border-box;
@@ -184,7 +190,6 @@ a{
     background-size:cover;
     
 }
-
 #tituquemsomos{
     text-align: center;
     color: white;
