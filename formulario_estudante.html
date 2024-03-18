@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+    </head>
+    <body bgcolor="gray">
+        <main> <!-- Conteúdo Principal -->
+
+            <h2> Dados do Aluno </h2>
+            
+            <!--Formulário-->
+            
+            <form method="post" action="recebe-dados.php"> <!-- Formulário -->
+
+                <fieldset> <!-- Cria uma caixa para organizar os elementos -->
+                <label for="nome"><h2>Nome Completo:</h2></label>
+                <input type="text" name="nome" id="nome" required />
+                <br>
+                <label for="matricula"><h2>Matricula:</h2></label>
+                <input type="number" name="matricula" id="matricula" required maxlength="10">
+                <br>
+                <label for="email_institucional"><h2>Email Institucional:</h2></label>
+                <input type="email" name="email_institucional" id="email_institucional" required>
+                <br>
+                <label for="contato"><h2>Telefone:</h2></label>>
+                <input type="tel" name="contato" id="contato" required maxlength="11">
+                </fieldset>
+                <input type="button"> Enviar</input>
+                </form>
+                </main>
+    </body>
+</html>
