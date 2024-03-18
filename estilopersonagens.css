@@ -1,0 +1,23 @@
+#listadeperson table td{
+    border: solid 1px white;
+    color: white;
+}
+#listadeperson table{
+    
+    
+}
+#tablemaster{
+    margin: 0 auto;
+}
+.personagemimg{
+    margin: 0 auto;
+    width: 200px;
+    height: 240px;
+}
+.material-icons{
+    color: gold;
+}
+
+#descricaoperso{
+    margin: 0 auto;
+}
