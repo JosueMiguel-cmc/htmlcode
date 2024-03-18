@@ -3,17 +3,34 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pesquisa</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estiloformulario.css">
     </head>
-    <body bgcolor="gray">
+    <body >
         <main> <!-- Conteúdo Principal -->
 
-            <h2> Dados do Aluno </h2>
+            <div>
+                <div id="titulo">   
+                <h1 id="txttitu">MundNimes</h1>
+                </div>
+                <ul id="itensmenu">
+                    <li id="itens"><a href="index.html">Home</a></li>
+                    <li id="itens"><a href="Animes.html">Animes</a></li>
+                    <li id="itens"><a href="Personagens.html">Personagens</a></li>
+                    <li id="itens"><a href="quemsomos.html">quem somos?</a></li>
+                    <li id="itens"><a href="formulario_estudante.html">Cadastro</a></li>
+                    
+                </ul>
+                </div> 
+
+            
             
             <!--Formulário-->
-            
-            <form method="post" action="recebe-dados.php"> <!-- Formulário -->
-
+            <div id="formulario">
+                <form method="post" action="recebe-dados.php"> <!-- Formulário -->
+                
                 <fieldset> <!-- Cria uma caixa para organizar os elementos -->
+                <h2 style="text-align: center;"> Dados do Aluno </h2>
                 <label for="nome"><h2>Nome Completo:</h2></label>
                 <input type="text" name="nome" id="nome" required />
                 <br>
@@ -24,10 +41,15 @@
                 <input type="email" name="email_institucional" id="email_institucional" required>
                 <br>
                 <label for="contato"><h2>Telefone:</h2></label>>
-                <input type="tel" name="contato" id="contato" required maxlength="11">
+                <input type="tel" name="contato" id="contato">
+                <label for="comentario"><h2>deixe seu comentario:</h2></label>
+                <textarea style="width: 300px; height: 200px;" id="areatexto"></textarea>
+                <br><br>
+                <input type="submit" style="width: 80px; height: 30px;">
                 </fieldset>
-                <input type="button"> Enviar</input>
+                
                 </form>
+            </div>
                 </main>
     </body>
 </html>
